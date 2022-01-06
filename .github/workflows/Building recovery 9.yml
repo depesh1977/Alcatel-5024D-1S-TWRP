@@ -15,8 +15,8 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-9.0
   DEVICE: 5024D
-  DT_LINK: https://github.com/depesh1977/Alcatel-5024D-1S-TWRP/tree/master/Alcatel/5024D
-  DT_PATH: device/Alcatel/5024D
+  DT_LINK: https://github.com/lopestom/device_alcatel_5024D
+  DT_PATH: device/alcatel/5024D
   TARGET: recoveryimage
   TZ: Asia/manila
 
@@ -55,7 +55,7 @@ jobs:
        - name: Checkout device tree
          uses: actions/checkout@v2
          with:
-          path: device/Alcatel/5024D
+          path: device/alcatel/5024D
              
        - name: Build
          run: |
