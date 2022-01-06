@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-PLATFORM_PATH := device/Alcatel/5024D
+PLATFORM_PATH := device/alcatel/5024D
 
 #LC_ALL=C
 ALLOW_MISSING_DEPENDENCIES=true
