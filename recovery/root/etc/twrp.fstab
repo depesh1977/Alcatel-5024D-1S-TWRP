@@ -6,7 +6,7 @@
 /system_image	emmc	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system
 /vendor		ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor
 /vendor_image	emmc	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor
-/data		ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata					flags=fileencryption=aes-256-xts
+/data		ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata					flags=fencryptable=footer
 
 
 # Removable storage
