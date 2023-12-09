@@ -123,6 +123,7 @@ TW_NO_USB_STORAGE := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+TW_LOAD_VENDOR_FRIMWARE := "focaltech-FT5x46.bin"
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d') by depesh1977
